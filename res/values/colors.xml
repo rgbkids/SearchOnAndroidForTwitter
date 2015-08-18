@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="olive">#CF000000</color>
+    <color name="red">#AFFF0000</color>
+    <color name="blue">#CF0000FF</color>
+    <color name="green">#CF00FF00</color>
+
+    <color name="skin_bg">#FF000000</color>
+
+    <color name="read">#6FFF0000</color>
+
+    <color name="reply_tx">#99ffffff</color>
+    <color name="reply_bg">#99333333</color>
+
+    <color name="query_txt">#000000</color>
+    <color name="query_bg">#99999999</color>
+
+    <color name="exit_ll_bg">#FF000000</color>
+
+    <color name="shortcut_bg">#79999999</color>
+
+    <color name="tab_bg">#1F000000</color>
+
+
+    <color name="comment">#00FFFFFF</color>
+    <color name="comment_tx">#8FFFFFFF</color>
+    <color name="comment_on">#AFFFFFFF</color>
+    <color name="loading_tx">#70FFFFFF</color>
+    <color name="loading_bg">#70000000</color>
+    <color name="nodata_tx">#70FFFFFF</color>
+    <color name="nodata_bg">#70000000</color>
+
+
+    <color name="item_bg">#30FFFFFF</color>
+    <color name="ll_label_bg_default">#00FFFFFF</color>
+
+
+    <color name="retweeted_tx">#AA333366</color>
+    <color name="retweeted_bg">#8FFFFFFF</color>
+    <color name="protected_tx">#FF009999</color>
+    <color name="protected_bg">#1AFFFFFF</color>
+    <color name="mess_tx">#8FFFFFFF</color>
+    <color name="mess_bg">#5A666666</color>
+
+    <color name="profile_tx">#8FFFFFFF</color>
+    <color name="twheader">#3AFFFFFF</color>
+
+    <color name="home">#AA003366</color>
+    <color name="search">#66666666</color>
+    <color name="nico">#FFFFFFFF</color>
+    <color name="tweet">#660099FF</color>
+
+    <color name="favorited_tx">#FFFFFF00</color>
+    <color name="favorited_bg">#00000000</color>
+
+
+    <color name="description_tx">#9CFFFFFF</color>
+    <color name="description_bg">#56666666</color>
+
+    <color name="query_res_tx">#FF009999</color>
+    <color name="query_res_bg">#C0FFFFFF</color>
+
+	<color name="q_a_btn_bg">#9F000000</color>
+
+
+
+
+
+
+
+    <color name="screen_background">#CAffffff</color>
+    <color name="error_message">#ffc00000</color>
+
+</resources>

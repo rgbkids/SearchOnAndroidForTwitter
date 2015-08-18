@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/gestures"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_ll"
+    >
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:orientation="vertical"
+				android:layout_weight="1"
+			    >
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:text="message"
+					android:id="@+id/message"
+					android:textColor="@color/query_txt"
+					android:background="@color/query_bg"
+				/>
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+				>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/dmnew_to"
+						android:id="@+id/mess"
+						android:textColor="@color/mess_tx"
+						android:background="@color/mess_bg"
+						android:padding="2dp"
+					/>
+					<LinearLayout android:id="@+id/linearLayout1"
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<EditText
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/to"
+							android:gravity="top|left"
+							android:lines="1"
+							android:inputType="text"
+							android:maxLines="1"
+							android:layout_weight="1"
+						/>
+						<Button
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/dmnew_list"
+							android:id="@+id/button1"
+							android:onClick="onListButton"
+						/>
+					</LinearLayout>
+
+					<LinearLayout
+					    android:orientation="horizontal"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    >
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/dmnew_mess"
+							android:id="@+id/mess"
+							android:textColor="@color/mess_tx"
+							android:background="@color/mess_bg"
+							android:padding="2dp"
+						/>
+						<TextView
+							android:text="zan:"
+							android:id="@+id/tweet_mess"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textColor="@color/mess_tx"
+							android:background="@color/mess_bg"
+							android:padding="2dp"
+						/>
+					</LinearLayout>
+
+					<LinearLayout android:id="@+id/linearLayout1"
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+					>
+						<EditText
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/tweet"
+						android:gravity="top|left"
+						android:text=""
+						android:minHeight="30dp"
+						android:lines="5"
+						android:layout_weight="1"
+						/>
+						<Button
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/dmnew_btn_post"
+						android:onClick="onOKButton"
+						/>
+				</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+</LinearLayout>
+</android.gesture.GestureOverlayView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">ja</string>
+
+
+	<string name="show_tweet">ツイートを見る</string>
+	<string name="check_follow">フォロー</string>
+	<string name="do_reply">返信する</string>
+	<string name="do_block">ブロック</string>
+	<string name="do_site">Twitter公式サイト</string>
+	<string name="do_spam">スパム報告</string>
+
+	<string name="info_tweet">ツイート:</string>
+	<string name="info_follow">フォロー:</string>
+	<string name="info_follower">フォロワー:</string>
+
+	<string name="btn_tweet">ツイート</string>
+	<string name="btn_camera">写真合成</string>
+
+	<string name="mark_kidoku">↓ ここまで読んだ ↓</string>
+	<string name="auth_msg_close">アプリをいったん終了し、再起動してください。</string>
+	<string name="auth_btn">アプリを終了</string>
+
+	<string name="dm_btn_get">受信BOX</string>
+	<string name="dm_btn_set">送信BOX</string>
+	<string name="dm_btn_new">新規作成</string>
+
+	<string name="dmnew_to">宛先</string>
+	<string name="dmnew_list">一覧</string>
+	<string name="dmnew_mess">メッセージ　</string>
+	<string name="dmnew_btn_post">送信</string>
+
+
+	<string name="skin_save">保　存</string>
+	<string name="skin_clear">クリア</string>
+	<string name="skin_init">初期値</string>
+	<string name="skin_image">背景画像選択</string>
+	<string name="skin_textcolor">文字色</string>
+	<string name="skin_bgcolor">背景色</string>
+	<string name="skin_bgimage">背景画像</string>
+	<string name="skin_alpha">透過率</string>
+	<string name="skin_size">サイズ</string>
+
+
+	<string name="opt_init">初期値</string>
+	<string name="opt_clear">クリア</string>
+	<string name="opt_setting">再設定</string>
+
+
+    <string name="hello">こんにちは</string>
+    <string name="hello2"></string>
+    <string name="hello3"></string>
+    <string name="hello4"></string>
+    <string name="app_name">検索 for Twitter</string>
+
+    <string name="q_a_words">単語 (単語を指定、複数指定の場合は半角スペースを空ける)</string>
+    <string name="q_a_tv01">これらのすべての単語</string>
+    <string name="q_a_tv02">このフレーズ</string>
+    <string name="q_a_tv03">これらの単語のどれか</string>
+    <string name="q_a_tv04">これらの単語のいずれでもない</string>
+    <string name="q_a_tv05">これらのハッシュタグ</string>
+    <string name="q_a_people">ユーザー名</string>
+    <string name="q_a_tv06">このユーザーからのツイート</string>
+    <string name="q_a_tv07">このユーザー宛ての返信</string>
+    <string name="q_a_tv08">このユーザーへの@ツイート</string>
+    <string name="q_a_tv09">表記</string>
+    <string name="q_a_btn">検索ｵﾌﾟｼｮﾝ</string>
+	<string name="q_a_btn_trends">トレンド</string>
+	<string name="q_a_btn_users">友達検索</string>
+    <string name="q_a_cb_rt">ﾘﾂｲｰﾄ(RT)を除く</string>
+    <string name="q_a_cb_pic">写真を検索</string>
+
+	<string name="btn_voice">声を添付</string>
+
+
+
+    <!-- In App -->
+    <string name="welcome">Welcome to the Sample store!</string>
+    <string name="billing_not_supported_title">Can\'t make purchases</string>
+    <string name="billing_not_supported_message">The Market billing
+     service is not available at this time.  You can continue to use this app but you
+     won\'t be able to make purchases.</string>
+    <string name="cannot_connect_title">Can\'t connect to Market</string>
+    <string name="cannot_connect_message">This app cannot connect to Market.
+     Your version of Market may be out of date.
+     You can continue to use this app but you
+     won\'t be able to make purchases.</string>
+    <string name="restoring_transactions">Restoring transactions</string>
+    <string name="learn_more">Learn more</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="buy">次へ</string>
+    <string name="select_item">選択してください</string>
+    <string name="edit_payload">Edit Payload</string>
+    <string name="edit_payload_title">Edit the developer payload associated with this purchase</string>
+    <string name="edit_payload_accept">Set</string>
+    <string name="edit_payload_clear">No Payload</string>
+    <string name="items_for_sale">Google Play</string>
+    <string name="items_you_own">一覧</string>
+    <string name="recent_transactions"></string>
+
+    <string name="two_handed_sword">Two-handed sword</string>
+    <string name="potions">Potions</string>
+    <string name="negi_001">正規版(100円)</string>
+
+    <!-- The following are reserved skus defined by Market for testing. -->
+    <string name="android_test_canceled">android.test.canceled</string>
+    <string name="android_test_purchased">android.test.purchased</string>
+    <string name="android_test_item_unavailable">android.test.item unavailable</string>
+    <string name="android_test_refunded">android.test.refunded</string>
+    <!-- In App -->
+
+
+
+
+  <string name="wallpaper_name">ねぎふりライブ壁紙</string>
+  <string name="wallpaper_settings">設定画面</string>
+  <string name="wallpaper_browser">ねぎふり</string>
+  <string name="settings">ライブ壁紙の設定</string>
+  <string name="settings_title">表示するデータ</string>
+  <string name="settings_title2">キャラクター画像</string>
+  <string name="settings_summary">ミクを３秒くらいなでると、データをダウンロードします。</string>
+  <string name="settings_summary2">お好みの画像を選択してください。</string>
+  <string name="preference_key">hachune_key1</string>
+  <string name="preference_key2">hachune_key2</string>
+  <string name="description">はちゅねミクがネギを振るライブ壁紙。ニコニコ動画のランキングなども表示します。</string>
+
+
+
+
+</resources>

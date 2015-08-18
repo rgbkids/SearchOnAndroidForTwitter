@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:padding="5dp"
+>
+
+
+
+
+	<LinearLayout
+	  android:orientation="vertical"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:padding="0dp"
+	  android:layout_weight="1"
+	>
+
+	<LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:padding="2dp"
+	>
+		<TextView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/name"
+		  android:textStyle="bold"
+		  android:gravity="top|left"
+		  android:visibility="visible"
+		  android:textColor="@color/comment_tx"
+		  android:layout_weight="1"
+		 />
+
+		<TextView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/screenName"
+		  android:visibility="invisible"
+		  android:padding="0dp"
+		  android:textSize="8dp"
+		/>
+
+		<TextView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/Date01"
+		  android:padding="2dp"
+		  android:textSize="10dp"
+		  android:textColor="@color/protected_tx"
+		  android:visibility="visible"
+		/>
+	</LinearLayout>
+
+		<TextView
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/comment"
+		  android:gravity="top|left"
+		  android:visibility="visible"
+		  android:padding="0dp"
+		  android:textSize="12dp"
+		  android:textColor="@color/comment_tx"
+		/>
+
+	</LinearLayout>
+
+		<ImageView
+		  android:layout_width="48dp"
+		  android:layout_height="48dp"
+		  android:id="@+id/image"
+		  android:visibility="visible"
+		/>
+
+</LinearLayout>

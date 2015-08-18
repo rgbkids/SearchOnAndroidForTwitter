@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/gestures"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/item_bg"
+  android:id="@+id/main_ll"
+>
+
+    <LinearLayout
+        android:id="@+id/exit_ll"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/exit_ll_bg"
+		android:orientation="horizontal"
+	/>
+
+	<LinearLayout
+		android:id="@+id/message"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/query_txt"
+		android:background="@color/query_bg"
+	/>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+
+		>
+
+		<ListView
+		  android:id="@+id/ListView01"
+		  android:layout_height="fill_parent"
+		  android:layout_width="fill_parent"
+		/>
+
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:paddingTop="0dp"
+			android:paddingRight="0dp"
+			android:gravity="right"
+		>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:padding="0dp"
+				android:background="@drawable/action_item_btn"
+				android:onClick="onReloadButton"
+			>
+				<ImageView
+					android:layout_width="44dp"
+					android:layout_height="44dp"
+					android:gravity="center_horizontal"
+					android:background="@drawable/light_button_background"
+					android:src="@drawable/icon_reload"
+					android:padding="4dp"
+				/>
+			</LinearLayout>
+		</LinearLayout>
+
+
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:paddingTop="1dp"
+			android:paddingBottom="1dp"
+			android:paddingRight="5dp"
+			android:gravity="center"
+			android:background="@color/shortcut_bg"
+
+		>
+
+			<LinearLayout
+				android:id="@+id/btn01"
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:padding="0dp"
+				android:background="@drawable/action_item_btn"
+			>
+				<ImageView
+					android:id="@+id/btn01_img"
+					android:layout_width="44dp"
+					android:layout_height="44dp"
+					android:gravity="center_horizontal"
+					android:background="@drawable/light_button_background"
+					android:paddingTop="4dp"
+					android:paddingLeft="4dp"
+					android:paddingRight="4dp"
+					android:paddingBottom="0dp"
+				/>
+
+				<TextView
+				  android:id="@+id/btn01_midoku"
+				  android:layout_width="fill_parent"
+				  android:layout_height="4dp"
+				  android:textSize="2dp"
+				  android:padding="0dp"
+				  android:background="@color/red"
+				  android:visibility="invisible"
+				/>
+			</LinearLayout>
+
+
+
+			<TextView
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:text="  "
+			  android:paddingLeft="16dp"
+			  android:id="@+id/tv01"
+			/>
+
+
+			<LinearLayout
+				android:id="@+id/btn02"
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:padding="0dp"
+				android:background="@drawable/action_item_btn"
+			>
+				<ImageView
+					android:id="@+id/btn02_img"
+					android:layout_width="44dp"
+					android:layout_height="44dp"
+					android:gravity="center_horizontal"
+					android:background="@drawable/light_button_background"
+					android:paddingTop="4dp"
+					android:paddingLeft="4dp"
+					android:paddingRight="4dp"
+					android:paddingBottom="0dp"
+				/>
+
+				<TextView
+				  android:id="@+id/btn02_midoku"
+				  android:layout_width="fill_parent"
+				  android:layout_height="4dp"
+				  android:textSize="2dp"
+				  android:padding="0dp"
+				  android:background="@color/red"
+				  android:visibility="invisible"
+				/>
+			</LinearLayout>
+
+
+
+
+
+
+
+
+
+			<TextView
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:text="  "
+			  android:paddingLeft="16dp"
+			  android:id="@+id/tv02"
+			/>
+
+
+			<LinearLayout
+				android:id="@+id/btn03"
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:padding="0dp"
+				android:background="@drawable/action_item_btn"
+			>
+				<ImageView
+					android:id="@+id/btn03_img"
+					android:layout_width="44dp"
+					android:layout_height="44dp"
+					android:gravity="center_horizontal"
+					android:background="@drawable/light_button_background"
+					android:paddingTop="4dp"
+					android:paddingLeft="4dp"
+					android:paddingRight="4dp"
+					android:paddingBottom="0dp"
+				/>
+
+				<TextView
+				  android:id="@+id/btn03_midoku"
+				  android:layout_width="fill_parent"
+				  android:layout_height="4dp"
+				  android:textSize="2dp"
+				  android:padding="0dp"
+				  android:background="@color/red"
+				  android:visibility="invisible"
+				/>
+			</LinearLayout>
+
+
+
+			<TextView
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:text="  "
+			  android:paddingLeft="16dp"
+			  android:id="@+id/tv03"
+			/>
+
+
+
+			<LinearLayout
+				android:id="@+id/btn04"
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:clickable="true"
+				android:focusable="true"
+				android:padding="0dp"
+				android:background="@drawable/action_item_btn"
+			>
+				<ImageView
+					android:id="@+id/btn04_img"
+					android:layout_width="44dp"
+					android:layout_height="44dp"
+					android:gravity="center_horizontal"
+					android:background="@drawable/light_button_background"
+					android:paddingTop="4dp"
+					android:paddingLeft="4dp"
+					android:paddingRight="4dp"
+					android:paddingBottom="0dp"
+				/>
+
+				<TextView
+				  android:id="@+id/btn04_midoku"
+				  android:layout_width="fill_parent"
+				  android:layout_height="4dp"
+				  android:textSize="2dp"
+				  android:padding="0dp"
+				  android:background="@color/red"
+				  android:visibility="invisible"
+				/>
+			</LinearLayout>
+
+
+
+
+</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
+
+
+</android.gesture.GestureOverlayView>

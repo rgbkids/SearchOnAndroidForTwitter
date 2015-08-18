@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/gestures"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/item_bg"
+  android:id="@+id/main_ll"
+>
+
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+>
+	<Button
+	  android:id="@+id/Button01"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="@string/opt_setting"
+	  android:onClick="onClickButton01"
+	  android:focusable="true"
+	  android:layout_weight="1"
+	/>
+	<Button
+	  android:id="@+id/Button02"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="@string/opt_clear"
+	  android:onClick="onClickButton02"
+	  android:focusable="true"
+	  android:layout_weight="1"
+	/>
+	<Button
+	  android:id="@+id/Button03"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="@string/opt_init"
+	  android:onClick="onClickButton03"
+	  android:layout_weight="1"
+	/>
+</LinearLayout>
+
+<ListView
+  android:id="@+id/ListView01"
+  android:layout_height="wrap_content"
+  android:layout_width="fill_parent"
+/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:visibility="invisible"
+>
+	<EditText
+	  android:layout_height="wrap_content"
+	  android:id="@+id/targetScreenName"
+	  android:layout_width="wrap_content"
+	   android:maxLines="1"
+	   android:layout_weight="1"
+	   />
+	<EditText
+	  android:layout_height="wrap_content"
+	  android:id="@+id/pageNo"
+	  android:layout_width="wrap_content"
+	   android:maxLines="1"
+	   android:layout_weight="1"
+	   android:inputType="number"
+	   />
+	<Button
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="ID/Page"
+	  android:onClick="onScreenNameButton"
+	/>
+</LinearLayout>
+
+
+
+
+
+
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:visibility="invisible"
+>
+	<EditText
+	  android:layout_height="wrap_content"
+	  android:id="@+id/targetScreenName1"
+	  android:layout_width="wrap_content"
+	   android:maxLines="1"
+	   android:layout_weight="1"
+	   />
+	<EditText
+	  android:layout_height="wrap_content"
+	  android:id="@+id/targetScreenName2"
+	  android:layout_width="wrap_content"
+	   android:maxLines="1"
+	   android:layout_weight="1"
+	   />
+	<Button
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="FOLLOW?"
+	  android:onClick="onFollowCheckButton"
+	/>
+</LinearLayout>
+
+
+</android.gesture.GestureOverlayView>

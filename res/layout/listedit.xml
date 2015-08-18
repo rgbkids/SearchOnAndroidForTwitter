@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/gestures"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout1"
+    >
+
+
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="message"
+  android:id="@+id/message"
+  android:textColor="@color/query_txt"
+  android:background="@color/query_bg"
+/>
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    >
+
+
+
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+
+		    >
+
+			<LinearLayout
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    >
+			</LinearLayout>
+
+
+
+			<TextView
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:text="list name"
+			    />
+
+
+				<EditText
+				  android:layout_width="fill_parent"
+				  android:layout_height="wrap_content"
+				  android:id="@+id/title"
+				  android:gravity="top|left"
+				/>
+
+				<TextView android:text="description" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<EditText android:layout_height="wrap_content" android:id="@+id/description" android:text="" android:layout_width="match_parent"></EditText>
+
+				<TextView android:text="is public" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+		</LinearLayout>
+
+
+
+			</LinearLayout>
+
+
+
+
+
+
+
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+
+			    >
+				<RadioGroup android:id="@+id/setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+					<RadioButton android:layout_width="wrap_content" android:id="@+id/pub" android:layout_height="wrap_content" android:text="public" android:checked="true"></RadioButton>
+					<RadioButton android:layout_width="wrap_content" android:id="@+id/pri" android:layout_height="wrap_content" android:text="private"></RadioButton>
+				</RadioGroup>
+			<Button
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:text="Save"
+			  android:onClick="onSaveButton"
+			/>
+
+			</LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+</android.gesture.GestureOverlayView>

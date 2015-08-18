@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+
+  android:background="@color/tab_bg"
+>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+
+		>
+
+
+
+			<ScrollView
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:fadingEdgeLength="20dp"
+			    android:layout_below="@+id/ll_info"
+                android:layout_above="@+id/ll_button"
+                android:textColor="@color/description_tx"
+                android:background="@color/description_bg"
+			>
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+				>
+				    <TextView
+					  android:layout_width="fill_parent"
+					  android:layout_height="wrap_content"
+					  android:textColor="@color/profile_tx"
+					  android:background="@color/tab_bg"
+					  android:text="@string/q_a_words"
+					/>
+
+				    <LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv01"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et01"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv02"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et02"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv03"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et03"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv04"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et04"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv05"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et05"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+				    <LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv09"
+						/>
+						<Spinner
+						    android:layout_height="wrap_content"
+						    android:layout_width="wrap_content"
+						    android:entries="@array/array_country"
+						    android:id="@+id/Spinner01"
+						    android:layout_weight="1"
+						/>
+					</LinearLayout>
+
+
+					<TextView
+					  android:layout_width="fill_parent"
+					  android:layout_height="wrap_content"
+					  android:textColor="@color/profile_tx"
+					  android:background="@color/tab_bg"
+					  android:text="@string/q_a_people"
+					/>
+
+				    <LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv06"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et06"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+				    <LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv07"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et07"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+				    <LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+					>
+						<TextView
+						  android:layout_width="140dp"
+						  android:layout_height="wrap_content"
+						  android:textColor="@color/profile_tx"
+						  android:text="@string/q_a_tv08"
+						/>
+						<EditText
+						  android:layout_width="wrap_content"
+						  android:layout_height="wrap_content"
+						  android:layout_weight="1"
+						  android:id="@+id/et08"
+						  android:lines="1"
+						  android:inputType="text"
+						  android:maxLines="1"
+						/>
+					</LinearLayout>
+
+				</LinearLayout>
+			</ScrollView>
+
+
+
+
+
+	</RelativeLayout>
+
+</LinearLayout>

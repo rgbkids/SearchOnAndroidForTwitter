@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_country">
+<item>all:AnyLanguage</item>
+<item>ja:Japanese</item>
+<item>en:English</item>
+<item>am:Amharic</item>
+<item>ar:Arabic</item>
+<item>hy:Armenian</item>
+<item>bn:Bengali</item>
+<item>bg:Bulgarian</item>
+<item>chr:Cherokee</item>
+<item>zh:Chinese</item>
+<item>da:Danish</item>
+<item>nl:Dutch</item>
+<item>fi:Finnish</item>
+<item>fr:French</item>
+<item>ka:Georgian</item>
+<item>de:German</item>
+<item>el:Greek</item>
+<item>gu:Gujarati</item>
+<item>iw:Hebrew</item>
+<item>hi:Hindi</item>
+<item>hu:Hungarian</item>
+<item>is:Icelandic</item>
+<item>in:Indonesian</item>
+<item>iu:Inuktitut</item>
+<item>it:Italian</item>
+<item>kn:Kannada</item>
+<item>km:Khmer</item>
+<item>ko:Korean</item>
+<item>lo:Lao</item>
+<item>lt:Lithuanian</item>
+<item>ml:Malayalam</item>
+<item>dv:Maldivian</item>
+<item>my:Myanmar</item>
+<item>ne:Nepali</item>
+<item>no:Norwegian</item>
+<item>or:Oriya</item>
+<item>pa:Panjabi</item>
+<item>fa:Persian</item>
+<item>pl:Polish</item>
+<item>pt:Portuguese</item>
+<item>ru:Russian</item>
+<item>si:Sinhala</item>
+<item>es:Spanish</item>
+<item>sv:Swedish</item>
+<item>ta:Tamil</item>
+<item>te:Telugu</item>
+<item>th:Thai</item>
+<item>bo:Tibetan</item>
+<item>tr:Turkish</item>
+<item>ur:Urdu</item>
+<item>vi:Vietnamese</item>
+	</string-array>
+
+
+
+
+
+
+<string-array name="entries">
+    <item>ニコ動　ランキング(毎時)</item>
+    <item>ニコ動　新着投稿 動画</item>
+    <item>ニコ動　新着コメント動画</item>
+    <item>ニコニコ静画</item>
+  </string-array>
+  <string-array name="values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string-array name="entries2">
+    <item>はちゅねミク</item>
+  </string-array>
+  <string-array name="values2">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+</string-array>
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">en</string>
+
+    <string name="show_tweet">View more Tweets</string>
+	<string name="check_follow">Follow</string>
+	<string name="do_reply">Reply</string>
+	<string name="do_block">Block</string>
+	<string name="do_site">Site</string>
+	<string name="do_spam">Spam</string>
+
+	<string name="info_tweet">Tweets:</string>
+	<string name="info_follow">Following:</string>
+	<string name="info_follower">Followers:</string>
+
+	<string name="btn_tweet">Tweet</string>
+	<string name="btn_camera">Camera</string>
+
+	<string name="mark_kidoku">read</string>
+	<string name="auth_msg_close">reboot?</string>
+	<string name="auth_btn">O K</string>
+
+	<string name="dm_btn_get">Inbox</string>
+	<string name="dm_btn_set">Sent</string>
+	<string name="dm_btn_new">New</string>
+
+
+	<string name="dmnew_to">To</string>
+	<string name="dmnew_list">Followers</string>
+	<string name="dmnew_mess">Message</string>
+	<string name="dmnew_btn_post">Send</string>
+
+	<string name="opt_init">Init</string>
+	<string name="opt_clear">Clear</string>
+	<string name="opt_setting">Setting</string>
+
+	<string name="skin_save">Save</string>
+	<string name="skin_clear">Clear</string>
+	<string name="skin_init">Init</string>
+	<string name="skin_image">Images</string>
+	<string name="skin_textcolor">Text color</string>
+	<string name="skin_bgcolor">Bg color</string>
+	<string name="skin_bgimage">Bg image</string>
+	<string name="skin_alpha">Alpha</string>
+	<string name="skin_size">Size</string>
+
+
+
+
+
+    <string name="hello">limits 140 sec.</string>
+    <string name="hello2"></string>
+    <string name="hello3"></string>
+    <string name="hello4"></string>
+    <string name="app_name">Search for Twitter</string>
+
+
+    <string name="q_a_words">Words</string>
+    <string name="q_a_tv01">All of these words</string>
+    <string name="q_a_tv02">This exact phrase</string>
+    <string name="q_a_tv03">Any of these words</string>
+    <string name="q_a_tv04">None of these words</string>
+    <string name="q_a_tv05">These hashtags</string>
+    <string name="q_a_people">People</string>
+    <string name="q_a_tv06">From these accounts</string>
+    <string name="q_a_tv07">To these accounts</string>
+    <string name="q_a_tv08">Mentioning these accounts</string>
+    <string name="q_a_tv09">Written in</string>
+    <string name="q_a_btn">Advanced Search</string>
+    <string name="q_a_btn_trends">Trends</string>
+    <string name="q_a_btn_users">Find friends</string>
+	<string name="q_a_cb_rt">-RT</string>
+    <string name="q_a_cb_pic">Photos</string>
+
+    <string name="btn_voice">Voice</string>
+
+
+
+
+
+
+
+
+    <!-- In App -->
+    <string name="welcome">Welcome to the Sample store!</string>
+    <string name="billing_not_supported_title">Can\'t make purchases</string>
+    <string name="billing_not_supported_message">The Market billing
+     service is not available at this time.  You can continue to use this app but you
+     won\'t be able to make purchases.</string>
+    <string name="cannot_connect_title">Can\'t connect to Market</string>
+    <string name="cannot_connect_message">This app cannot connect to Market.
+     Your version of Market may be out of date.
+     You can continue to use this app but you
+     won\'t be able to make purchases.</string>
+    <string name="restoring_transactions">Restoring transactions</string>
+    <string name="learn_more">Learn more</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="buy">Next</string>
+    <string name="select_item">Select an item</string>
+    <string name="edit_payload">Edit Payload</string>
+    <string name="edit_payload_title">Edit the developer payload associated with this purchase</string>
+    <string name="edit_payload_accept">Set</string>
+    <string name="edit_payload_clear">No Payload</string>
+    <string name="items_for_sale">Items for sale (Google Play)</string>
+    <string name="items_you_own">Items you own</string>
+    <string name="recent_transactions">Recent activity</string>
+
+    <string name="two_handed_sword">Two-handed sword</string>
+    <string name="potions">Potions</string>
+    <string name="negi_001">product</string>
+
+    <!-- The following are reserved skus defined by Market for testing. -->
+    <string name="android_test_canceled">android.test.canceled</string>
+    <string name="android_test_purchased">android.test.purchased</string>
+    <string name="android_test_item_unavailable">android.test.item unavailable</string>
+    <string name="android_test_refunded">android.test.refunded</string>
+    <!-- In App -->
+
+
+
+
+
+  <string name="wallpaper_name">Miku Hachune Wallpaper</string>
+  <string name="wallpaper_settings">Settings</string>
+  <string name="wallpaper_browser">Miku Hachune Wallpaper</string>
+  <string name="settings">Settings</string>
+  <string name="settings_title">Download</string>
+  <string name="settings_title2">Character</string>
+  <string name="settings_summary">If you pat her head for 3 seconds ...</string>
+  <string name="settings_summary2"></string>
+  <string name="preference_key">hachune_key1</string>
+  <string name="preference_key2">hachune_key2</string>
+  <string name="description">This is a wallpaper of Miku Hachune.</string>
+
+
+
+
+</resources>

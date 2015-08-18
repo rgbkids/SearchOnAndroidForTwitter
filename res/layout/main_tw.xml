@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/gestures"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_ll"
+>
+
+<LinearLayout
+	android:id="@+id/exit_ll"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/exit_ll_bg"
+	android:orientation="horizontal"
+/>
+
+<LinearLayout
+		android:id="@+id/message"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/query_txt"
+		android:background="@color/query_bg"
+	/>
+
+
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    >
+
+
+
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+
+		    >
+
+	    	<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/replyTweet"
+				android:gravity="top|left"
+				android:textColor="@color/reply_tx"
+				android:background="@color/reply_bg"
+				android:visibility="invisible"
+			/>
+
+			<LinearLayout
+			    android:orientation="vertical"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    >
+					<TextView
+						android:text="zan:"
+						android:id="@+id/tweet_mess"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textColor="@color/mess_tx"
+						android:background="@color/mess_bg"
+						android:padding="2dp"
+					/>
+			</LinearLayout>
+
+
+
+<!--
+				<TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:text="@string/hello2"
+				    android:id="@+id/mess"
+				    />
+-->
+
+
+
+		</LinearLayout>
+
+
+
+			</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<LinearLayout android:id="@+id/linearLayout1"
+						android:orientation="horizontal"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+				>
+						<EditText
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/tweet"
+							android:gravity="top|left"
+							android:text=""
+							android:lines="12"
+							android:layout_weight="1"
+						/>
+
+						<LinearLayout android:id="@+id/linearLayout1"
+							android:orientation="vertical"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+						>
+							<Button
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:text="@string/btn_tweet"
+								android:onClick="onOKButton"
+							/>
+
+							<Button
+							  android:id="@+id/btn_camera"
+							  android:layout_width="fill_parent"
+							  android:layout_height="wrap_content"
+							  android:onClick="onCameraButton"
+							  android:text="@string/btn_camera"
+							/>
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+							>
+								<TextView
+									android:text="text"
+									android:id="@+id/camera_mess"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:textColor="@color/mess_tx"
+									android:background="@color/mess_bg"
+									android:visibility="invisible"
+									android:padding="2dp"
+									android:gravity="center"
+									android:layout_gravity="center"
+								/>
+							</LinearLayout>
+
+							<Button
+							  android:layout_width="fill_parent"
+							  android:layout_height="wrap_content"
+							  android:onClick="onVoiceButton"
+							  android:text="@string/btn_voice"
+							  android:visibility="invisible"
+							/>
+
+						</LinearLayout>
+				</LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+</android.gesture.GestureOverlayView>

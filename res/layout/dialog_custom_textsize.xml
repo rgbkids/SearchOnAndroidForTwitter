@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/tab_bg"
+  padding="20dp"
+>
+
+	<LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  padding="20dp"
+	>
+	    <Button android:text="保　存" android:id="@+id/button1" android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" android:layout_weight="1"/>
+	    <Button android:text="初期値" android:id="@+id/button2" android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" android:layout_weight="1"/>
+	</LinearLayout>
+
+    <SeekBar android:id="@+id/seekBar1" android:layout_height="wrap_content" android:layout_width="match_parent"
+    />
+
+	<LinearLayout
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="100dp"
+	  padding="20dp"
+	>
+    	<TextView android:text="文字の大きさ" android:id="@+id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+
+</LinearLayout>
